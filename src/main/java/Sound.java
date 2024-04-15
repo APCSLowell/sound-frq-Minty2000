@@ -19,7 +19,7 @@ public class Sound
   int c =0 ; 
     for (int i =0  ; i < samples.length;i++){
       if (samples[i]> limit){
-          samples[i]=limit; 
+          samples[i]= limit; 
           c++;
       }else if (sample[i] < -limit){
           samples[i]= -limit; 
