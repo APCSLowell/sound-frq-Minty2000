@@ -21,7 +21,7 @@ public class Sound
       if (samples[i]> limit){
           samples[i]= limit; 
           c++;
-      }else if (sample[i] < -limit){
+      }else if (samples[i] < -limit){
           samples[i]= -limit; 
           c++;
       }
