@@ -17,12 +17,12 @@ public class Sound
   {  
     /* to be implemented in part (a) */
   int c =0 ; 
-    for (int i =0  ; i < sample.length;i++){
+    for (int i =0  ; i < samples.length;i++){
       if (samples[i]> limit){
-          sample[i]=limit; 
+          samples[i]=limit; 
           c++;
       }else if (sample[i] < -limit){
-          sample[i]= -limit; 
+          samples[i]= -limit; 
           c++;
       }
     }
